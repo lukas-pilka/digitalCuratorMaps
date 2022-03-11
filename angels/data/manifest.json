@@ -1,0 +1,55 @@
+{
+    "version": "0.0.113",
+    "plot_id": "4d9bbf7a-9d47-11ec-9484-f2189875163c",
+    "output_directory": "output",
+    "layouts": {
+        "umap": {
+            "variants": [
+                {
+                    "n_neighbors": 15,
+                    "min_dist": 0.01,
+                    "layout": "output/data/layouts/umap-4d9bbf7a-9d47-11ec-9484-f2189875163c.json",
+                    "jittered": "output/data/layouts/umap-jittered-4d9bbf7a-9d47-11ec-9484-f2189875163c.json"
+                }
+            ]
+        },
+        "alphabetic": {
+            "layout": "output/data/layouts/grid-4d9bbf7a-9d47-11ec-9484-f2189875163c.json"
+        },
+        "grid": {
+            "layout": "output/data/layouts/rasterfairy-4d9bbf7a-9d47-11ec-9484-f2189875163c.json"
+        },
+        "categorical": false,
+        "date": {
+            "layout": "output/data/layouts/timeline-4d9bbf7a-9d47-11ec-9484-f2189875163c.json",
+            "labels": "output/data/layouts/timeline-labels-4d9bbf7a-9d47-11ec-9484-f2189875163c.json"
+        },
+        "geographic": null,
+        "custom": null
+    },
+    "initial_layout": "umap",
+    "point_sizes": {
+        "min": 0,
+        "grid": 0.021739130434782608,
+        "max": 0.02608695652173913,
+        "scatter": 0.004347826086956522,
+        "initial": 0.004347826086956522,
+        "categorical": 0.013043478260869565,
+        "geographic": 0.0005434782608695652,
+        "date": 0.0007763975155279503
+    },
+    "imagelist": "output/data/imagelists/imagelist-4d9bbf7a-9d47-11ec-9484-f2189875163c.json",
+    "atlas_dir": "output/data/atlases/4d9bbf7a-9d47-11ec-9484-f2189875163c",
+    "metadata": true,
+    "default_hotspots": "output/data/hotspots/hotspot-4d9bbf7a-9d47-11ec-9484-f2189875163c.json",
+    "custom_hotspots": "output/data/hotspots/user_hotspots.json",
+    "gzipped": false,
+    "config": {
+        "sizes": {
+            "atlas": 2048,
+            "cell": 32,
+            "lod": 128
+        }
+    },
+    "creation_date": "06-March-2022-13:26:19"
+}
