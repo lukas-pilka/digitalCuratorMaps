@@ -8,11 +8,12 @@ def uploadFromDirectory(directoryPath: str, bucketName, destBlobName: str):
     storageClient = storage.Client()
     bucket = storageClient.bucket(bucketName)
     for localFile in relPaths:
-        remotePath = f'{destBlobName}/{"/".join(localFile.split(os.sep)[1:])}'
+        # [2:] in remotePath means that first two parts in paths will be cut for Google Bucket deployment
+        remotePath = f'{destBlobName}/{"/".join(localFile.split(os.sep)[2:])}'
         if os.path.isfile(localFile):
             blob = bucket.blob(remotePath)
             blob.upload_from_filename(localFile)
             print('Uploading '+remotePath)
 
-uploadFromDirectory('angels', 'maps.digitalcurator.art', 'angels')
+uploadFromDirectory('atlases/landesmuseum', 'maps.digitalcurator.art', 'landesmuseum')
 

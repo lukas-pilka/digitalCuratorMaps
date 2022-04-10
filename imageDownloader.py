@@ -2,7 +2,6 @@ from google.cloud import storage
 import requests
 from requests.auth import HTTPBasicAuth
 import config
-import googleAuth
 import json
 import csv
 
@@ -72,7 +71,7 @@ def load10kFromElastic(afterId):
 
     # preparing CSV
 
-    with open('downloadedItems.csv', 'w', encoding='UTF8', newline='') as f:
+    with open('metadataSources/downloadedItems.csv', 'w', encoding='UTF8', newline='') as f:
         writer = csv.writer(f)
         writer.writerow(csvHeader)
 

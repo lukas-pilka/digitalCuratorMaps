@@ -1,3 +1,10 @@
-<h1>Two thousand angels</h1>
-<p>The following visualization shows 2&nbsp;078 artworks depicting angels arranged by formal similarity. The originals of these works date from 1350 to 1850 and belong to the collections of Central European museums. The selection of the reproductions with the angel motif was done automatically using a specially trained neural network based on <a href="https://cloud.google.com/vision" target="_blank">Google Cloud Vision</a> technology. Each image was then processed by the <a href="https://arxiv.org/abs/1409.4842" target="_blank">Inception</a> neural network and projected onto a two-dimensional map using the <a href="https://github.com/lmcinnes/umap" target="_blank">UMAP</a> algorithm and <a href="https://github.com/YaleDHLab/pix-plot" target="_blank">PixPlot</a> tool.</p>
-<p>Lukas Pilka, 2022</p>
+#Digital Curator's atlases
+The following visualization shows artifacts from different museum collections arranged by formal similarity. Each image was processed by the <a href="https://arxiv.org/abs/1409.4842" target="_blank">Inception</a> neural network and projected onto a two-dimensional map using the <a href="https://github.com/lmcinnes/umap" target="_blank">UMAP</a> algorithm and <a href="https://github.com/YaleDHLab/pix-plot" target="_blank">PixPlot</a> tool.
+
+### Explore the following atlases
+
+- <a href="https://storage.googleapis.com/maps.digitalcurator.art/angels/index.html" target="_blank">Two Thousand Angels</a>
+- <a href="https://storage.googleapis.com/maps.digitalcurator.art/landesmuseum/index.html" target="_blank">Exploration of Landesmuseum</a>
+
+
+

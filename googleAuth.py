@@ -1,5 +1,6 @@
 import os
 import config
+
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = config.googleCredentialsKey
 
 def implicit():
